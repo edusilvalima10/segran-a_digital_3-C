@@ -17,11 +17,33 @@ body{
  font-family: var(--roboto);
 }
 
+.conteudo-titulo{
+text-align: center;
+
+}
+
 .titulo-principal{
     font-family: var(--roboto-mono);
     font-size: 32px;
+   
 }
 
 .titulo-secundario{
 font-size: 24px;
+
+}
+
+.aba-senha{
+    padding-left: 24px;
+border-bottom: 6px solid var(--texto-borda);
+
+    background: var(--fundo-senha);
+
+  
+}
+
+.texto-senha{
+    color: white;
+    text-align: center;
+    padding: 10%;
 }
